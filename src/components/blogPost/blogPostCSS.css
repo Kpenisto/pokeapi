@@ -1,0 +1,95 @@
+.blog-container {
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+    background: white;
+    width: 600px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.blog-posts-container {
+    background: radial-gradient(circle, rgba(173, 216, 230, 1) 0%, rgba(70, 130, 180, 1) 100%);
+    border: solid 1px;
+    padding: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.blog-post {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.blog-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-date {
+    float: right;
+    font-style: italic;
+}
+
+.blog-bottom-body {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.blog-author {
+    float: right;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.blog-actions {
+    margin-top: 20px;
+}
+
+.blog-actions button {
+    margin-left: 5px;
+}
+
+.new-post-button-container {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.new-post-button {
+    width: 100%;
+}
+
+.new-post-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-post-button-creation-container {
+    display: flex;
+    margin: 3%;
+    justify-content: center;
+}
+
+.edit-button, .delete-button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.blog-post-edit-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-post-edit-buttons {
+    display: flex;
+    margin: 3%;
+    justify-content: center;
+}

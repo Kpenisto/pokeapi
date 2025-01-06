@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import { PokeController } from './components/pokeList/PokeController';
-import bleachersImage from "./bleachers.jpg";
+import { BlogPostController } from './components/blogPost/BlogPostController';
 
 function App() {
   return (
-  <div className="App" style={{backgroundImage: `url(${bleachersImage})`}}>
-      <PokeController />
+  <div className="App">
+      <BlogPostController />
     </div>
   );
 }
